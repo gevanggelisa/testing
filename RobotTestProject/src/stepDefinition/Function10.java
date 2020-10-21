@@ -1,0 +1,26 @@
+//package stepDefinition;
+//
+//import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.By;
+//import cucumber.api.java.en.Given;
+//import cucumber.api.java.en.Then;
+//
+//public class Function10 {
+//
+//	WebDriver driver;
+//	
+//	@Given("^Open chrome and start application(\\d+)$")
+//	public void Open_chrome_and_start_application(int arg1) throws Throwable {
+//		System.setProperty("webdriver.chrome.driver", "D:\\Kuliah\\Semester 7\\PPMPL\\Week10\\chromedriver_win32\\chromedriver.exe");
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.get("https://www.spotify.com/id/");
+//	}
+//
+//	@Then("^I can download(\\d+)$")
+//	public void I_can_download(int arg1) throws Throwable {
+//	    driver.findElement(By.xpath("/html/body/div[2]/div[1]/header/div/nav/ul/li[3]/a")).click();
+//	}
+//
+//}
